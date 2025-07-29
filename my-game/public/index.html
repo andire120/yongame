@@ -48,36 +48,36 @@
         // --- 결과 데이터 설정 ---
         // 아이템 조합에 따른 결과 이미지입니다.
         const resultsMap = {
-            'deco1_flavor1_magic1': { name: '상냥한 요정', image: 'https://placehold.co/300x400/FFC0CB/000000?text=결과1' },
-            'deco1_flavor1_magic2': { name: '수줍은 요정', image: 'https://placehold.co/300x400/FFB6C1/000000?text=결과2' },
-            'deco1_flavor1_magic3': { name: '장난꾸러기 요정', image: 'https://placehold.co/300x400/FF69B4/000000?text=결과3' },
-            'deco1_flavor2_magic1': { name: '신비로운 마법사', image: 'https://placehold.co/300x400/DB7093/FFFFFF?text=결과4' },
-            'deco1_flavor2_magic2': { name: '꿈꾸는 마법사', image: 'https://placehold.co/300x400/DB7093/FFFFFF?text=결과5' },
-            'deco1_flavor2_magic3': { name: '현명한 마법사', image: 'https://placehold.co/300x400/DB7093/FFFFFF?text=결과6' },
-            'deco1_flavor3_magic1': { name: '호기심 많은 탐험가', image: 'https://placehold.co/300x400/C71585/FFFFFF?text=결과7' },
-            'deco1_flavor3_magic2': { name: '용감한 탐험가', image: 'https://placehold.co/300x400/C71585/FFFFFF?text=결과8' },
-            'deco1_flavor3_magic3': { name: '자유로운 탐험가', image: 'https://placehold.co/300x400/C71585/FFFFFF?text=결과9' },
+            'deco1_flavor1_magic1': { name: '상냥한 요정', image: '/meme1.png' },
+            'deco1_flavor1_magic2': { name: '수줍은 요정', image: '/meme2.png' },
+            'deco1_flavor1_magic3': { name: '장난꾸러기 요정', image: '/meme3.png' },
+            'deco1_flavor2_magic1': { name: '신비로운 마법사', image: '/meme4.png' },
+            'deco1_flavor2_magic2': { name: '꿈꾸는 마법사', image: '/meme5.png' },
+            'deco1_flavor2_magic3': { name: '현명한 마법사', image: '/meme6.png' },
+            'deco1_flavor3_magic1': { name: '호기심 많은 탐험가', image: '/meme7.png' },
+            'deco1_flavor3_magic2': { name: '용감한 탐험가', image: '/meme8.png' },
+            'deco1_flavor3_magic3': { name: '자유로운 탐험가', image: '/meme9.png' },
 
-            'deco2_flavor1_magic1': { name: '활발한 모험가', image: 'https://placehold.co/300x400/C71585/FFFFFF?text=결과10' },
-            'deco2_flavor1_magic2': { name: '겁 없는 모험가', image: 'https://placehold.co/300x400/C71585/FFFFFF?text=결과11' },
-            'deco2_flavor1_magic3': { name: '재치있는 모험가', image: 'https://placehold.co/300x400/C71585/FFFFFF?text=결과12' },
-            'deco2_flavor2_magic1': { name: '신비로운 정령', image: 'https://placehold.co/300x400/FF1493/FFFFFF?text=결과13' },
-            'deco2_flavor2_magic2': { name: '숲의 정령', image: 'https://placehold.co/300x400/FF1493/FFFFFF?text=결과14' },
-            'deco2_flavor2_magic3': { name: '물의 정령', image: 'https://placehold.co/300x400/FF1493/FFFFFF?text=결과15' },
-            'deco2_flavor3_magic1': { name: '명랑한 요정', image: 'https://placehold.co/300x400/FFA07A/000000?text=결과16' },
-            'deco2_flavor3_magic2': { name: '밝은 요정', image: 'https://placehold.co/300x400/FFA07A/000000?text=결과17' },
-            'deco2_flavor3_magic3': { name: '행복한 요정', image: 'https://placehold.co/300x400/FFA07A/000000?text=결과18' },
+            'deco2_flavor1_magic1': { name: '활발한 모험가', image: '/meme10.png' },
+            'deco2_flavor1_magic2': { name: '겁 없는 모험가', image: '/meme11.png' },
+            'deco2_flavor1_magic3': { name: '재치있는 모험가', image: '/meme12.png' },
+            'deco2_flavor2_magic1': { name: '신비로운 정령', image: '/meme13.png' },
+            'deco2_flavor2_magic2': { name: '숲의 정령', image: '/meme14.png' },
+            'deco2_flavor2_magic3': { name: '물의 정령', image: '/meme15.png' },
+            'deco2_flavor3_magic1': { name: '명랑한 요정', image: '/meme16.png' },
+            'deco2_flavor3_magic2': { name: '밝은 요정', image: '/meme17.png' },
+            'deco2_flavor3_magic3': { name: '행복한 요정', image: '/meme18.png' },
 
-            'deco3_flavor1_magic1': { name: '지혜로운 현자', image: 'https://placehold.co/300x400/FA8072/000000?text=결과19' },
-            'deco3_flavor1_magic2': { name: '고독한 현자', image: 'https://placehold.co/300x400/FA8072/000000?text=결과20' },
-            'deco3_flavor1_magic3': { name: '인내심 강한 현자', image: 'https://placehold.co/300x400/FA8072/000000?text=결과21' },
-            'deco3_flavor2_magic1': { name: '장난스러운 악마', image: 'https://placehold.co/300x400/E9967A/000000?text=결과22' },
-            'deco3_flavor2_magic2': { name: '교활한 악마', image: 'https://placehold.co/300x400/E9967A/000000?text=결과23' },
-            'deco3_flavor2_magic3': { name: '강력한 악마', image: 'https://placehold.co/300x400/E9967A/000000?text=결과24' },
-            'deco3_flavor3_magic1': { name: '어둠의 그림자', image: 'https://placehold.co/300x400/D3D3D3/000000?text=결과25' },
-            'deco3_flavor3_magic2': { name: '밤의 지배자', image: 'https://placehold.co/300x400/D3D3D3/000000?text=결과26' },
-            'deco3_flavor3_magic3': { name: '심연의 존재', image: 'https://placehold.co/300x400/D3D3D3/000000?text=결과27' },
-            'default': { name: '평범한 모습', image: 'https://placehold.co/300x400/D3D3D3/000000?text=기본' }
+            'deco3_flavor1_magic1': { name: '지혜로운 현자', image: '/meme19.png' },
+            'deco3_flavor1_magic2': { name: '고독한 현자', image: '/meme20.png' },
+            'deco3_flavor1_magic3': { name: '인내심 강한 현자', image: '/meme21.png' },
+            'deco3_flavor2_magic1': { name: '장난스러운 악마', image: '/meme22.png' },
+            'deco3_flavor2_magic2': { name: '교활한 악마', image: '/meme23.png' },
+            'deco3_flavor2_magic3': { name: '강력한 악마', image: '/meme24.png' },
+            'deco3_flavor3_magic1': { name: '어둠의 그림자', image: '/meme25.png' },
+            'deco3_flavor3_magic2': { name: '밤의 지배자', image: '/meme26.png' },
+            'deco3_flavor3_magic3': { name: '심연의 존재', image: '/meme27.png' },
+            'default': { name: '평범한 모습', image: '/meme1.png' }
         };
 
         // --- 스타일 클래스 설정 ---
@@ -162,15 +162,15 @@
 
             const container = document.createElement('div');
             container.className = styles.container;
-            container.style.backgroundImage = "url('https://placehold.co/1920x1080/F8C8DC/FFFFFF?text=메인+배경화면')";
+            container.style.backgroundImage = "url('/main.png')";
 
             const contentBox = document.createElement('div');
             contentBox.className = "bg-black bg-opacity-30 p-10 rounded-2xl shadow-2xl text-center";
 
             const title = document.createElement('h1');
             title.className = "text-6xl font-extrabold text-white mb-12";
-            title.style.textShadow = '2px 2px 4px #000';
-            title.textContent = '마법의 변신 물약';
+            title.style.textShadow = '2px 2px 5px #000';
+            title.textContent = '윤정이의 변신 마법';
 
             const buttonContainer = document.createElement('div');
             buttonContainer.className = "space-y-6";
@@ -211,7 +211,7 @@
 
             const container = document.createElement('div');
             container.className = styles.container;
-            container.style.backgroundImage = "url('https://placehold.co/1920x1080/E6E6FA/000000?text=게임방법+배경')";
+            container.style.backgroundImage = "url('/main.png')";
 
             const contentBox = document.createElement('div');
             contentBox.className = "bg-white bg-opacity-80 p-10 rounded-2xl shadow-2xl max-w-3xl text-center";
@@ -378,10 +378,13 @@
 
             const container = document.createElement('div');
             container.className = styles.container;
-            container.style.backgroundImage = "url('https://placehold.co/1920x1080/FFDAB9/000000?text=결과+배경')";
+            container.style.backgroundImage = "url('final.png')"; // Assume final.png is in the same directory as index.html
 
             const contentBox = document.createElement('div');
-            contentBox.className = "bg-white bg-opacity-80 p-10 rounded-2xl shadow-2xl text-center flex flex-col items-center";
+            // Added 'relative' to allow for 'left' positioning relative to its normal flow
+            // Added 'transform' and 'left' to shift it 100px left
+            contentBox.className = "bg-white bg-opacity-80 p-10 rounded-2xl shadow-2xl text-center flex flex-col items-center relative";
+            contentBox.style.left = '-300px'; // Shift 100px to the left
 
             const title = document.createElement('h2');
             title.className = "text-4xl font-bold text-pink-500 mb-4";
